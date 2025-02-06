@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutcracker Coding</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+        }
+        #contact {
+            background: #f4f4f4;
+            padding: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            background: #333;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nutcracker Coding</h1>
+        <p>Custom software solutions tailored for your needs</p>
+    </header>
+    
+    <section id="services">
+        <h2>Services</h2>
+        <ul>
+            <li>Software Development</li>
+            <li>Software Consulting</li>
+            <li>Automation Solutions</li>
+        </ul>
+    </section>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a solo software developer specializing in creating efficient and scalable software solutions.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: liubov.burtseva@gmail.com</p>
+        <button id="contactButton">Get in Touch</button>
+    </section>
+    
+    <script>
+        document.getElementById('contactButton').addEventListener('click', function() {
+            alert('Feel free to reach out via email!');
+        });
+    </script>
+</body>
+</html>
